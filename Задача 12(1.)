@@ -1,0 +1,21 @@
+let age = 10;
+let ageGroup;
+
+if (age <= 1)
+  {
+    ageGroup = "Щенки";
+  }
+else if (age>3 && age<=5)
+  {
+    ageGroup = "Молодые собаки";
+  }
+else if (age>5 && age<=9)
+  {
+    ageGroup = "Собаки средних лет";
+  }
+else if (age > 9)
+  {
+    ageGroup = "Почтенные таксоны";
+  }
+
+console.log(ageGroup);
